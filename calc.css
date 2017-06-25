@@ -1,0 +1,67 @@
+body{
+	background: -moz-linear-gradient(bottom left,rgba(127,178,133,1),rgba(7,178,133,1));
+	overflow: auto;
+}
+
+#input{
+	max-width: 200px;
+}
+
+#left{
+	display: inline-block;
+	float: left;
+	width: 80%;
+}
+
+#right{
+	display: inline-block;
+	float: right;
+	width: 20%;
+}
+
+#display{
+	display: block;
+	max-width: 200px;
+	height: 40px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 30px;
+	background-color: rgba(0,0,0,0.5);
+	box-shadow: 3px 3px 5px #584F40;
+	margin: 5px;
+	color: white;
+	border-radius: 10px;
+	text-align: right;
+}
+
+button{	
+	width: 40px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 30px;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.numbers{
+	background-color: #FFD700;
+	border-color: #FFD700;
+	color: black;
+	box-shadow: 3px 3px 5px #DAA520;
+}
+
+.operators{
+	background-color: #00EAB4;
+	border-color: #00EAB4;
+	color: black;
+	box-shadow: 3px 3px 5px #3BEA00;
+}
+
+.equal{
+	background-color: #FFD2C5;
+	border-color: #FFD2C5;
+	color: black;
+	box-shadow: 3px 3px 5px #FFD2C5;
+}
+
+
+
